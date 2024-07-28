@@ -9,5 +9,4 @@ These Algorithms include:<br />
 6.**Non Premptive Priority Scheduling**<br />
 7.**Round Robin** <br />
 
-<h1>Python library Used</h1><br>
-**Tkinter**<br />
+**Python_LIbrary:**(**Tkinter**)<br />

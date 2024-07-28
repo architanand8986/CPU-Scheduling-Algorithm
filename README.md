@@ -1,12 +1,25 @@
 # CPU_Scheduling_Algorithms
-This project contains codes of 7 basic CPU Scheduling Algorithms in C++ to run on your terminal or code editor and it also has its gui which is made using python's Tkinter library.<br />
-These Algorithms include:<br />
-1.**FCFS**(**First Come First Serve**)<br />
-2.**SJF**(**Shortest Job First**)<br />
-3.**HRRN**(**Highest Response Ratio Next**)<br />
-4.**SRTF**(**Shortest Remaining Time First**)<br />
-5.**Premptive Priority Scheduling**<br />
-6.**Non Premptive Priority Scheduling**<br />
-7.**Round Robin** <br />
 
-**Python_Library:**(**Tkinter**)<br />
+This project contains the implementation of 7 basic CPU Scheduling Algorithms in C++ for terminal or code editor execution, along with a graphical user interface (GUI) built using Python's Tkinter library.
+
+## Algorithms Included:
+1. **FCFS** (First Come First Serve)
+2. **SJF** (Shortest Job First)
+3. **HRRN** (Highest Response Ratio Next)
+4. **SRTF** (Shortest Remaining Time First)
+5. **Preemptive Priority Scheduling**
+6. **Non-Preemptive Priority Scheduling**
+7. **Round Robin**
+
+## GUI Implementation:
+The GUI for these scheduling algorithms is built using the Tkinter library in Python. It allows users to input processes with their respective burst times, arrival times, and priorities. Based on the selected scheduling algorithm, it computes and displays the waiting times, turnaround times, and a Gantt chart for visualization.
+
+### Features of the GUI:
+- **Process Input:** Allows users to enter Process ID, Arrival Time, Burst Time, and Priority (if applicable).
+- **Algorithm Selection:** Dropdown menu to select one of the 7 scheduling algorithms.
+- **Time Quantum Input:** Input field for time quantum when Round Robin is selected.
+- **Compute Schedule:** Button to compute and display the schedule.
+- **Clear Data:** Button to clear all inputs and outputs.
+
+### Python Library Used:
+- **Tkinter:** Used for creating the graphical user interface.
